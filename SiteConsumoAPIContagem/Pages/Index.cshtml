@@ -1,0 +1,12 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h1><b>@TempData["Saudacao"]</b></h2>
+    <h2><b>Local:</b> @TempData["Local"]</h2>
+    <h3><b>Valor atual:</b> @TempData["ValorContador"]</h3>
+    <h3>@TempData["ResultadoAPIContagem"]</h3>
+</div>
